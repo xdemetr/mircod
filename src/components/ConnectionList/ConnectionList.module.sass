@@ -1,0 +1,45 @@
+.list
+  display: flex
+  flex-wrap: wrap
+
+.item
+  width: 112px
+  height: 80px
+  margin: 0 8px 8px 0
+  border-radius: 6px
+  position: relative
+  background: #fafafa
+  cursor: pointer
+  transition: background-color .2s
+
+  &::after
+    content: ''
+    background: url('./selected.svg')
+    width: 14px
+    height: 14px
+    position: absolute
+    right: 8px
+    top: 8px
+    transform: scale(0)
+    transition: transform .2s
+
+  &:hover
+    background: #f75f19
+
+    .itemLabel
+      color: #fff
+
+  &.selected
+    background: #f75f19
+    color: #fff
+
+    &::after
+      transform: scale(1)
+
+
+.itemLabel
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
