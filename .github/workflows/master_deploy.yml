@@ -21,5 +21,5 @@ jobs:
         run: |
           git config --global user.email "dmitriev@joomdesign.ru"
           git config --global user.name "xdemetr"
-          git remote set-url origin https://5dce565f4f61082e3eec44c0a87aa52a675a0474@github.com/xdemetr/mircod.git
+          git remote set-url origin https://25f9d7f2e910a17b54e61473e53e19019ad49455@github.com/xdemetr/mircod.git
           npm run deploy
