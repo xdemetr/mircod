@@ -4,4 +4,4 @@
 ## Запуск
 `npm start`
 
-[Демо](https://xdemetr.gitlab.io/mircod)
+[Демо](https://xdemetr.github.io/mircod)
