@@ -1,5 +1,6 @@
 {
   "name": "mircod",
+  "homepage": "https://xdemetr.github.io/mircod",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
